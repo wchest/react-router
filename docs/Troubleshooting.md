@@ -4,7 +4,7 @@
 You will need to add the router context type to your component so the router will be available to you.
 ```js
 contextTypes: {
-  router: React.PropTypes.func.isRequired
+  router: Router.PropTypes.router
 }
 ```
 
